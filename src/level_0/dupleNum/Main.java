@@ -10,9 +10,10 @@ public class Main {
     // TODO  중복된 숫자 개수
     public int solution(int[] array, int n) {
       int answer = 0;
-      for (int i : array) {
-        answer += i == n ? 1 : 0;
-      }
+      // for (int i : array) {
+      //   answer += i == n ? 1 : 0;
+      // }
+      answer = java.util.Arrays.stream(array).filter(e -> e == n).sum();
       return answer;
     }
   }
