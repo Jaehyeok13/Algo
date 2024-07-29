@@ -1,7 +1,5 @@
 package level_0.repeatString;
 
-import level_0.findModeNum.Main.Solution;
-
 public class Main {
   public static void main(String[] args) throws Exception {
     Solution solution = new Solution();
